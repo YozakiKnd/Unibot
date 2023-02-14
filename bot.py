@@ -45,7 +45,7 @@ if os.path.basename(__file__) == 'bot.py':
     bot = CQHttp()
     botdebug = False
 else:
-    guildhttpport = 1988
+    guildhttpport = 2526
     bot = CQHttp(api_root=f'http://127.0.0.1:{guildhttpport}')
     botdebug = True
 botdir = os.getcwd()
@@ -59,8 +59,8 @@ menberLists = {}
 gachalimit = {'lasttime': '', 'count': 0}
 pokelimit = {'lasttime': '', 'count': 0}
 vitslimit = {'lasttime': '', 'count': 0}
-admin = [1103479519]
-mainbot = [1513705608]
+admin = [1632476920]
+mainbot = [1746590079]
 requestwhitelist = []  # 邀请加群白名单 随时设置 不保存到文件
 
 botname = {
